@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="seagreen">#0CFFC8</color>
+    <color name="lightblue">#598EF7</color>
+    <color name="lightpurple">#995EF9</color>
+    <color name="fadedpurple">#252B69</color>
+    <color name="fadedblue">#18366A</color>
+    <color name="Red">#B00000</color>
+    <color name="green">#4C8076</color>
+</resources>

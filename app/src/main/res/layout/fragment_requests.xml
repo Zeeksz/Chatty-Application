@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardScreen.GameFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIC TOE GAME"
+        android:fontFamily="@font/bariol_bold_webfont"
+        android:textSize="22sp"
+        android:layout_marginLeft="22dp"
+        android:textColor="#FFFFFF"
+        />
+    <LinearLayout
+        android:layout_margin="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/newGame"
+            android:padding="5dp"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bluebutton"
+            android:fontFamily="@font/light"
+            android:gravity="center"
+            android:text="New Game"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginLeft="120dp"/>
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_marginBottom="3pt"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/bu1"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:background="@drawable/background_rounded_rect_gray_r10" />
+
+        <Button
+            android:background="@drawable/background_rounded_rect_gray_r10"
+            android:id="@+id/bu2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt" />
+
+        <Button
+            android:background="@drawable/background_rounded_rect_gray_r10"
+            android:id="@+id/bu3"
+            android:layout_width="40pt"
+            android:layout_height="40pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="3pt"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:background="@drawable/background_rounded_rect_gray_r10"
+            android:id="@+id/bu4"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt" />
+
+        <Button
+            android:background="@drawable/background_rounded_rect_gray_r10"
+            android:id="@+id/bu5"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt" />
+
+        <Button
+            android:background="@drawable/background_rounded_rect_gray_r10"
+            android:id="@+id/bu6"
+            android:layout_width="40pt"
+            android:layout_height="40pt" />
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:background="@drawable/background_rounded_rect_gray_r10"
+            android:id="@+id/bu7"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt" />
+
+        <Button
+            android:background="@drawable/background_rounded_rect_gray_r10"
+            android:id="@+id/bu8"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt" />
+
+        <Button
+            android:background="@drawable/background_rounded_rect_gray_r10"
+            android:id="@+id/bu9"
+            android:layout_width="40pt"
+            android:layout_height="40pt" />
+    </TableRow>
+</TableLayout>

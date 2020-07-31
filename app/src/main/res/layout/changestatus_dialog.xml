@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/roundeddialog">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello There!"
+        android:fontFamily="@font/bold"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:paddingTop="30dp">
+    </TextView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Are You Here For a Status Change? Then Go On"
+    android:fontFamily="@font/light"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    android:layout_marginTop="10dp">
+
+</TextView>
+  <EditText
+      android:id="@+id/statuschange_et"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:hint="Type in New Status Here..."
+      android:textColor="#FFFFFF"
+      android:textColorHint="#E6EEFD">
+  </EditText>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/savechanges_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/greenbutton"
+            android:fontFamily="@font/light"
+            android:text="Accept Changes"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </Button>
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/redbutton"
+            android:fontFamily="@font/light"
+            android:text="Decline Changes"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.619"
+            app:layout_constraintStart_toEndOf="@+id/savechanges_btn"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </Button>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
