@@ -1,1 +1,0 @@
-this is the sample text to check if the git is working or not.
